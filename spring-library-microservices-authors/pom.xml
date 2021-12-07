@@ -51,6 +51,10 @@
 			<artifactId>spring-boot-admin-starter-client</artifactId>
 			<version>2.4.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
