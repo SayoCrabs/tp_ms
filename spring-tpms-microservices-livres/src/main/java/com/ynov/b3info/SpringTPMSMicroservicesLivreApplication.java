@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringPizzaMicroservicesIngredientsApplication {
+public class SpringTPMSMicroservicesLivreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringPizzaMicroservicesIngredientsApplication.class, args);
+		SpringApplication.run(SpringTPMSMicroservicesLivreApplication.class, args);
 	}
 
 }

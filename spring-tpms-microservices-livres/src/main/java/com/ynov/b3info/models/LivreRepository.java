@@ -1,4 +1,4 @@
-package com.ynov.b3info.tpms.models;
+package com.ynov.b3info.models;
 
 import org.springframework.data.repository.CrudRepository;
 
