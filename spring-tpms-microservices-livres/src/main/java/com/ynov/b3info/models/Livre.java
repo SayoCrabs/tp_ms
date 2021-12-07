@@ -22,6 +22,23 @@ public class Livre {
 	@Temporal(TemporalType.DATE) // jour mois année (sans heure)
 	private Date dateParution;
 	
+	
+	
+	public Livre() {
+		super();
+	}
+	
+	
+
+	public Livre(String titre, String auteur, Date dateParution) {
+		super();
+		this.titre = titre;
+		this.auteur = auteur;
+		this.dateParution = dateParution;
+	}
+
+
+
 	public Integer getId() {
 		return id;
 	}
